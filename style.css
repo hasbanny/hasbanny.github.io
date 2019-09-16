@@ -1,0 +1,151 @@
+body{
+   background: white;
+    font-size: 12px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 175%;
+    margin: 2% 2% 2% 2%;
+    width: auto;
+    overflow:hidden;
+}
+a{
+  color: tomato;
+  opacity:100%;
+}
+a:hover{
+  color:  #1BB4D2;
+}
+
+/********************************************************/
+
+.navbar{
+  color: #000000;
+  list-style: none;   /*gets rid of bullet points*/
+  align-self: inherit;
+  text-align: right;  /*aligns to the right*/
+  font-size: 15px;
+}
+
+.navbar > li{
+  display: inline-block; /*puts everything on the same line (horizontal)*/
+  padding-right: 10px;
+}
+.navbar > li.rn{
+  text-align:left;
+  position:relative;
+  margin-top:-2%;
+}
+.navbar > li.rn > span{
+  background-color: black;
+  padding-right: 5px;
+  padding-left: 5px;
+  color:white;
+  font-size: 24px;
+}
+.navbar > li > a{
+  text-decoration: none;
+  color: #000000;
+}
+.navbar > li > a:hover{
+  color: tomato;
+}
+
+/********************************************************/
+#firstBox{
+  float:left;
+  width: 15%;
+  background: #FFF;
+  padding: 1%; /*for text*/
+  text-align: center;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+#firstBox > img.aboutBox-img{
+  opacity:0.75;
+  border-radius: 50%;
+  margin-top: 6px;
+  width: 50%;
+  height: auto;
+}
+#firstBox > img.aboutBox-img:hover{
+  opacity: 0.90;
+}
+#firstBox h1 {
+  opacity: 0.75;
+  margin-bottom: 1%;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color:#000;
+}
+#firstBox h5{
+  opacity: 0.75;
+  margin-top: 2%;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #000;
+}
+#firstBox p{
+  opacity: 0.75;
+  /* text-align: justify; */
+  color: #000;
+  font-size: 13px;
+}
+.ill_div{
+  width:250px;
+  height:120px;
+  background-color:  #1BB4D2;
+  float:left;
+}
+
+
+/********************************************************/
+#secondBox{
+  margin-top:auto;
+  float:left;
+  width: 50%;
+  height: 570px;
+  margin-left: 5%;
+  font-size:15px;
+  opacity: 0.8;
+}
+/*
+.subbox{
+  height:40%;
+} */
+
+#secondBox h2.titles{
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #1BB4D2;
+}
+
+#secondBox p.authors{
+  margin-top: -10px;
+  opacity:0.75;
+  font-size: 12px;
+}
+
+
+#thirdBox {
+  margin-left:25px;
+  float:left;
+  width:280px;
+  height:550px;
+}
+#thirdBox img{
+  margin-left:25px;
+  float:left;
+  width:280px;
+  height:550px;
+}
+
+.content_holder{
+  margin:auto;
+  width:1300px;
+  height:570px;
+  background-color: none;
+}
