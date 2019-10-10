@@ -1,55 +1,73 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-    	<title>Hasbanny Irisson</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hasbanny Irisson</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    </head>
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    
+    </head>
     <body>
-    <!--TOP PART-->
-        <ul class="navbar">
+    <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-md mb-3">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#" class="nav-item nav-link">About</a>
+                        <a href="#" class="nav-item nav-link">Projects</a>
+                        <a href="#" class="nav-item nav-link">Research</a>
+                    </div>
+                </div>
+            </div>    
+        </nav>
+    <!-- TWO COLUMN LAYOUT -->
+        <div class="container">
+            <div class="row">
+                <div id="firstBox" class="col-md-4">
+                    <img src="./images/profile.jpg" alt="" class="aboutBox-img">
+                    <h1>Hasbanny Irisson</h1>
+                    <h5> Computer Science</h5>
+                    <p align="center"><a href="mailto: hasbanny@aol.com"><i class="far fa-envelope" size=2x align="center"></i></a></p>
+                    <p> <a href="./resume.pdf" target="_blank"> Resume</a></p>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="titles" align="center">ABOUT ME</h2>
+                    <p align="justify">My name is Hasbanny Irisson, and I am 22-year-old latina living in the Rio Grande Valley.
+                        I was born in Veracruz, Mexico and raised in the U.S. I like to be involved in my community, and one of my
+                        passions is advocating for victims of sexual assault and domestice violence. In addition, I often look for ways to help women
+                        in STEM fields; in fact, a collegue and I have decided to create a website specfically for women in these fields to
+                        help them market and promote themselves for job opportunites. </p>
+        
+                    <p> I am a recent graduate from <a href="http://www.utrgv.edu/en-us/">The University of Texas - Rio Grande Valley</a>,
+                        where I earned a Bachelors of Science in Computer Science and a minor in Business Management.
+                        I have dedicated my last 2 years of college to contributing to important research topics such as, 
+                        phosphoprotemics analysis, and social interaction in robotics.</p>
+                </div>
+            </div>
 
-            <li class="rn"><span>ABOUT</span></li>
-            <li><a href="index.html">ABOUT</a></li><li><b>/</b></li>
-            <li><a href="https://github.com/hasbanny" target="_blank">PROJECTS</a></li><li><b>/</b></li>
-            <li><a href="research.html">RESEARCH</a></li>
-        </ul>
-
-<div class="content_holder">
-    <!--BASIC INFO + CONTACT-->
-        <div id="firstBox"> <!--ABOUT ME section-->
-            <img src="./images/profile.jpg" alt="" class="aboutBox-img">
-
-            <h1>Hasbanny Irisson</h1>
-            <h5> Computer Science</h5>
-           <p align="center"><a href="mailto: ceecysr@gmail.com"><i class="far fa-envelope" size=2x align="center"></i></a></p>
-           <p> <a href="./resume.pdf" target="_blank"> Resume</a></p>
-
-          <!--   <div class="ill_div"></div></p>   <!replace with actual illustration-->
+            <!-- FOOTER -->
+            <footer>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Copyright &copy; 2019 Hasbanny Irisson</p>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                        <a href="https://www.linkedin.com/in/hasbanny-irisson-607020131/" class="text-dark" target="_blank">
+                            <img src="C:\Users\lovek\Downloads\linkedin.svg" width="30" height="30" alt=""></a> 
+                        <span class="text-muted mx-2">|</span> 
+                        <a href="https://github.com/hasbanny" class="text-dark" target="_blank">
+                            <img src="C:\Users\lovek\Downloads\github.svg" width="30" height="30" alt=""></a>
+                    </div>
+                </div>
+            </footer>
         </div>
-
-
-<div id="secondBox"> <!--aboutInfo-->
-        <h2 class="titles" align="center">ABOUT ME</h2>
-        <p align="justify">I am a recent graduate from <a href="http://www.utrgv.edu/en-us/">The University
-        of Texas - Rio Grande Valley</a>,
-          where I was part of several important projects. My most recent project involved integrating
-          a kinase-substrate prediction method into an R-package and an R-Shiny web application in
-          order to make it more accessible to the medical community. This project earned us the 1st
-          place at my university's annual senior research competition. These type of projects have
-          increased my sense of teamwork, and has improved my self-learning skills. I am currently
-          learning Python, as well as increasing my knowledge on R. I also have experience in
-          developing different data structures and algorithms in C++. I have experience in web
-          development with HTML, PHP, CSS, bootstrap, and Ruby. Aside from my technical experience,
-          I have work several jobs in the restaurant industry, which have taught me responsability,
-          and has refined my customer service skills. With these experiences, I consider myself a
-          well-rounded person, ready to take on a new challenge to keep on growing.
-            <h2 class="titles" align="center"></h2>
-
-</div>
-<div id="thirdBox">
-</div>
-
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>

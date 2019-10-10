@@ -8,25 +8,29 @@ body{
     overflow:hidden;
 }
 a{
-  color: tomato;
+  color: #FB9281;
   opacity:100%;
 }
 a:hover{
-  color:  #1BB4D2;
+  color: #FD7663;
 }
 
-/********************************************************/
 
+/********************************************************/
 .navbar{
+  border-style: solid;
+  border-color: #FB9281;
+}
+/*.navbar{
   color: #000000;
-  list-style: none;   /*gets rid of bullet points*/
+  list-style: none;   /*gets rid of bullet points
   align-self: inherit;
-  text-align: right;  /*aligns to the right*/
+  text-align: right;  /*aligns to the right
   font-size: 15px;
 }
 
 .navbar > li{
-  display: inline-block; /*puts everything on the same line (horizontal)*/
+  display: inline-block; /*puts everything on the same line (horizontal)
   padding-right: 10px;
 }
 .navbar > li.rn{
@@ -47,7 +51,7 @@ a:hover{
 }
 .navbar > li > a:hover{
   color: tomato;
-}
+}*/
 
 /********************************************************/
 #firstBox{
@@ -60,15 +64,12 @@ a:hover{
   font-family: 'Titillium Web', sans-serif;
 }
 #firstBox > img.aboutBox-img{
-  opacity:0.75;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   margin-top: 6px;
-  width: 50%;
-  height: auto;
+  width: 100%;
+  height: auto; 
 }
-#firstBox > img.aboutBox-img:hover{
-  opacity: 0.90;
-}
+
 #firstBox h1 {
   opacity: 0.75;
   margin-bottom: 1%;
@@ -108,6 +109,8 @@ a:hover{
   margin-left: 5%;
   font-size:15px;
   opacity: 0.8;
+  border-style: solid;
+  border-color: green;
 }
 /*
 .subbox{
@@ -148,4 +151,39 @@ a:hover{
   width:1300px;
   height:570px;
   background-color: none;
+  flex-grow: 1; 
+  border-style: solid;
+  border-color: black;
+}
+
+.main-footer {
+  height: 70px;
+  color: #1BB4D2;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  flex-grow: 1;
+}
+.footer-nav ul {
+  display:flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  padding: 1rem;
 }
