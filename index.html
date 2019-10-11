@@ -11,10 +11,10 @@
     </head>
     <body>
     <!-- NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-md mb-3">
+        <nav class="navbar navbar-light navbar-expand-md mb-3">
             <div class="container-fluid">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
+                <button type="button" class="navbar-toggler custom" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="fas fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
@@ -27,16 +27,18 @@
         </nav>
     <!-- TWO COLUMN LAYOUT -->
         <div class="container">
+            <div id="title" >
+                <h2 class="titles" align="center">ABOUT ME</h2>
+            </div>
             <div class="row">
-                <div id="firstBox" class="col-md-4">
+                <div id="firstBox" class="col-sm-4">
                     <img src="./images/profile.jpg" alt="" class="aboutBox-img">
                     <h1>Hasbanny Irisson</h1>
                     <h5> Computer Science</h5>
                     <p align="center"><a href="mailto: hasbanny@aol.com"><i class="far fa-envelope" size=2x align="center"></i></a></p>
                     <p> <a href="./resume.pdf" target="_blank"> Resume</a></p>
                 </div>
-                <div class="col-md-8">
-                    <h2 class="titles" align="center">ABOUT ME</h2>
+                <div id="secndBx" class="col-sm-8">
                     <p align="justify">My name is Hasbanny Irisson, and I am 22-year-old latina living in the Rio Grande Valley.
                         I was born in Veracruz, Mexico and raised in the U.S. I like to be involved in my community, and one of my
                         passions is advocating for victims of sexual assault and domestice violence. In addition, I often look for ways to help women
@@ -47,16 +49,21 @@
                         where I earned a Bachelors of Science in Computer Science and a minor in Business Management.
                         I have dedicated my last 2 years of college to contributing to important research topics such as, 
                         phosphoprotemics analysis, and social interaction in robotics.</p>
+                    
+                    <p> My current plans are to continue my education by earning a Masters degree in Computer Science in the same institution.
+                        I plan on continuing my research with Dr. Ayati in phosphoprotemics analysis, in which we implement kinase-substrate 
+                        prediction in cancer to help the medical community develop accurate drugs for this disease. 
+                    </p>
                 </div>
             </div>
 
             <!-- FOOTER -->
-            <footer>
+            <footer class="container fixed-bottom">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <p>Copyright &copy; 2019 Hasbanny Irisson</p>
                     </div>
-                    <div class="col-md-6 text-md-right">
+                    <div class="col-sm-6 text-md-right">
                         <a href="https://www.linkedin.com/in/hasbanny-irisson-607020131/" class="text-dark" target="_blank">
                             <img src="./images/linkedin.svg" width="30" height="30" alt=""></a> 
                         <span class="text-muted mx-2">|</span> 
@@ -66,6 +73,9 @@
                 </div>
             </footer>
         </div>
+        <div class="fas fa-circle one"></div>
+        <div class="fas fa-circle two"></div>
+        <div class="fas fa-circle three"></div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
