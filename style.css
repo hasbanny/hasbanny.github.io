@@ -29,7 +29,12 @@ a:hover{
   opacity:100%;
   font-size: large;
 }
-
+.navbar-light .navbar-nav .nav-link.active{
+  color: #FB9281;
+  opacity:100%;
+  font-size: large;
+  font-style: italic;
+}
 .navbar-light .navbar-nav .nav-link:hover{
   color: #FD7663;
   font-weight: bold;
