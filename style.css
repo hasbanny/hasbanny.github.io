@@ -3,7 +3,7 @@ body{
     font-size: 12px;
     font-family: 'Titillium Web', sans-serif;
     line-height: 175%;
-    margin: 2% 2% 2% 2%;
+    margin: 2% 2% 20% 2%;
     width: auto;
     /*border-color: blue;
     border-style: solid;*/
@@ -126,21 +126,9 @@ a:hover{
 /*.container {
   border-color: blue;
   border-style: solid;
-  overflow:auto;
 }
 
 footer{
  border-color: blue;
   border-style: solid;
 }*/
-.footer-nav ul {
-  display:flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.footer-nav a {
-  text-decoration: none;
-  padding: 1rem;
-}
